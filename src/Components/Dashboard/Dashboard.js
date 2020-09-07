@@ -46,6 +46,7 @@ export default class Dashboard extends Component {
         inputValue: '',
       }));
     }
+    console.log('newDeposit :', newDeposit);
   };
 
   handleWithdrawSubmit = () => {
